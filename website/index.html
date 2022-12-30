@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SaaS Modern Landing Page</title>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="/website/assets/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav-bar">
+    <div class="container navbar">
+      <a class="brand">
+        .Company
+      </a>
+      <ul class="nav">
+        <a class="nav-item" href="#benefits">
+          <li>Benfits</li>
+        </a>
+        <a class="nav-item" href="#about">
+          <li>About</li>
+        </a>
+        <div class="button-navbar">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn-main" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Shcedule a call
+          </button>
+          <!-- Modal -->
+          <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- Calendly inline widget begin -->
+                  <div class="calendly-inline-widget" data-url="https://calendly.com/carterjames/30min" style="min-width:320px;height:530px;"></div>
+                  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                  <!-- Calendly inline widget end -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </nav>
+  <!-- Header -->
+  <div class="container-fluid header-banner">
+    <img class="header-img" src="./images/Main-bg.jpg" alt="Background">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg l-col">
+            <h1>.Company - 
+              Faculty and Course Tracking System</h1>
+            <p>The next big thing starts here. Start building with Prodify and be the first to market with a product that is ready to take on the competition and delight your customers</p>
+            <div class="btn-container">
+              <a class="btn-main" href="#">Shcedule a call<span class="material-symbols-outlined">
+                calendar_month
+                </span></a>
+              <a class="btn-border" href="#">View Pricing<span class="material-symbols-outlined">
+                arrow_forward
+                </span></a>
+            </div>
+          </div>
+          <div class="col-lg r-col"></div>
+        </div>
+    </div>
+  </div>
+<!-- Benefits -->
+<div class="container benefits" id="benefits">
+  <div class="benefits-header">
+    <span class="span-mark">Featured</span>
+    <h2>The Benefits</h2>
+    <p>General text that describes the benefits</p>
+  </div>
+  <div class="row">
+    <div class="col-lg card">
+      <div class="b-card-col"></div>
+      <div class="b-row-card">
+        <img class="benefits-icon" src="./images/mdi_book-open-page-variant.svg" alt="Image">
+        <h5>Prospective Planning</h5>
+      </div>
+      <p>coursFACTS provides both near and long-term visibility across courses and allows you to predictively plan your curriculum, enrollment, course schedules and faculty work assignments.</p>
+    </div>
+    <div class="col-lg card c-shadow">
+      <div class="b-card-col"></div>
+      <div class="b-row-card">
+        <img class="benefits-icon" src="./images/mdi_book-open-page-variant-1.svg" alt="Image">
+        <h5>Faculty Planning</h5>
+      </div>
+      <p>coursFACTS provides a simple way for users to schedule and manage faculty activities, teaching assignments, and professional workload throughout the academic year.</p>
+    </div>
+    <div class="col-lg card">
+      <div class="b-card-col"></div>
+      <div class="b-row-card">
+        <img class="benefits-icon" src="./images/mdi_book-open-page-variant-2.svg" alt="Image">
+        <h5>Interactive Visibility</h5>
+      </div>
+      <p>By centralizing course and faculty plans, coursFACTS can automatically identify any discrepancies that exist and proactively alert the appropriate decision-maker. Any updates can then be made with ease.</p>
+    </div>
+  </div>
+</div>
+<!-- About -->
+<div class="container" id="about">
+  <div class="row">
+    <div class="col-lg">
+      <span class="span-mark">About</span>
+      <h2>coursFACTS provides prospective scheduling of courses and faculty for cohort based academic programs.</h2>
+      <p>Unlike traditional methods that rely on an ad-hoc collection of excel sheets, stacks of binders and tribal knowledge, coursFACTS seamlessly brings together all of the necessary information for course scheduling, including:</p>
+    </div>
+    <div class="col-lg">
+      <img src="./images/Study-image.png" alt="">
+    </div>
+  </div>
+  <div class="grid py-5">
+    <div class="grid-item">
+      <img src="./images/flag-icon.svg" alt="Grid Image">
+      <h5>Course details</h5>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+    </div>
+    <div class="grid-item">
+      <img src="./images/plan-icon.svg" alt="Grid Image">
+      <h5>Plans of Study</h5>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+    </div>
+    <div class="grid-item">
+      <img src="./images/peoples-icon.svg" alt="Grid Image">
+      <h5>Cohort information</h5>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+    </div>
+    <div class="grid-item">
+      <img src="./images/flag-icon.svg" alt="Grid Image">
+      <h5>Faculty workload</h5>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+    </div>
+    <div class="grid-item">
+      <img src="./images/plan-icon.svg" alt="Grid Image">
+      <h5>Prospective schedule</h5>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+    </div>
+    <div class="grid-item">
+      <img src="./images/Random-image.svg" alt="Grid Image">
+    </div>
+  </div>
+</div>
+<!-- Banner -->
+<div class="container-fluid banner">
+  <div class="banner-content">
+    <span class="span-mark-cta">Get Started</span>
+    <h2>Let's start building your <br>tomorrow, <span style="color: var(--primary-color);">today.</span></h2>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn-yellow" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Book a demo
+    </button>
+    <!-- Modal -->
+    <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/carterjames/30min" style="min-width:320px;height:530px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            <!-- Calendly inline widget end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Pricing -->
+<!-- Footer -->
+<script src="./assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
