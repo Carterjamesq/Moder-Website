@@ -322,4 +322,11 @@ p {
 }
 
 
+/* Pricing Styles */
+.pricing-head {
+    text-align: center;
+    padding: 80px 0 64px 0;
+}
+
+
 /* Responsivness */
