@@ -149,6 +149,11 @@ img {
     z-index: 99;
 }
 
+/* Mobile Menu */
+.mobile-menu {
+    display: none;
+}
+
 
 /* Header Styles */
 .header-banner {
@@ -459,3 +464,12 @@ p {
 
 
 /* Responsivness */
+
+@media (max-width: 768px) {
+    .nav-bar {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }
+}
