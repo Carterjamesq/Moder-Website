@@ -8,6 +8,7 @@
     --light-yellow: #FFF9E9;
     --light-blue: #2B3646;
     --red: #FE6039;
+    --blue-normal: #4B5563;
 }
 
 body {
@@ -156,6 +157,9 @@ img {
 .l-col {
     padding-top: 100px;
 }
+.l-col p {
+    color: var(--white) !important;
+}
 
 .header-banner, h1, p {
     color: var(--white) !important;
@@ -255,6 +259,13 @@ p {
     margin-bottom: 10px;
 }
 
+.benefits-header h2 {
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 36px !important;
+    line-height: 40px !important;
+}
+
 .card {
     border: unset !important;
     gap: 20px;
@@ -265,6 +276,21 @@ p {
     background: #FFFFFF !important;
     box-shadow: 0px 36px 80px rgba(0, 0, 0, 0.05) !important;
     border-radius: 20px !important;
+}
+
+/* About Styles */
+.about-l-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.about-l-col h2 {
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 36px !important;
+    line-height: 40px !important;
 }
 
 
@@ -402,6 +428,22 @@ p {
 .form-check-input:checked {
     background-color: var(--primary-color) !important;
     border-color: var(--primary-color) !important;
+}
+
+
+/* Footer */
+.footer-r-col h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+.footer-r-col a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--blue-normal) !important;
 }
 
 /* To Top Button */
