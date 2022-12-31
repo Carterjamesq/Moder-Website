@@ -25,9 +25,13 @@
         <a class="nav-item" href="#about">
           <li>About</li>
         </a>
-        <a class="btn-main" href="#pricing">Pricing
-          <img src="./images/currency-icon.svg" alt="">
-        </a>
+        <div class="btn-container"></div>
+          <a class="btn-main" href="#pricing">Pricing
+            <span class="material-symbols-outlined">
+              sell
+            </span>
+          </a>
+        </div>
       </ul>
     </div>
   </nav>
@@ -137,27 +141,11 @@
   <div class="banner-content">
     <span class="span-mark-cta">Get Started</span>
     <h2>Let's start building your <br>tomorrow, <span style="color: var(--primary-color);">today.</span></h2>
-    <!-- Button trigger modal -->
-    <button type="button" class="btn-yellow" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      Book a demo
-    </button>
-    <!-- Modal -->
-    <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/carterjames/30min" style="min-width:320px;height:530px;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-            <!-- Calendly inline widget end -->
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Calendly link widget begin -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <a class="btn-yellow" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/carterjames/30min'});return false;">Book a demo</a>
+    <!-- Calendly link widget end -->
   </div>
 </div>
 <!-- Pricing -->
