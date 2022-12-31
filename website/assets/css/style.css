@@ -352,6 +352,13 @@ p {
     padding-right: 0 !important;
 }
 
+.form-switch .form-check-input {
+    width: 3em !important;
+}
+.form-check-input {
+    height: 1.5em !important;
+}
+
 /* To Top Button */
 #btn-back-to-top {
     position: fixed;
