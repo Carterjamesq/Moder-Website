@@ -25,7 +25,9 @@
         <a class="nav-item" href="#about">
           <li>About</li>
         </a>
-        <a class="btn-main" href="#pricing">Pricing</a>
+        <a class="btn-main" href="#pricing">Pricing
+          <img src="./images/currency-icon.svg" alt="">
+        </a>
       </ul>
     </div>
   </nav>
@@ -39,12 +41,17 @@
               Faculty and Course Tracking System</h1>
             <p>The next big thing starts here. Start building with Prodify and be the first to market with a product that is ready to take on the competition and delight your customers</p>
             <div class="btn-container">
-              <a class="btn-main" href="#">Shcedule a call<span class="material-symbols-outlined">
+              <!-- Calendly link widget begin -->
+              <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+              <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+              <a class="btn-main" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/carterjames/30min'});return false;">Shcedule a call<span class="material-symbols-outlined">
                 calendar_month
                 </span></a>
+              <!-- Calendly link widget end -->
             </div>
           </div>
-          <div class="col-lg r-col"></div>
+          <div class="col-lg r-col">
+          </div>
         </div>
     </div>
   </div>
