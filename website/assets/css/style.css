@@ -7,6 +7,7 @@
     --grey: #EBEBEB;
     --light-yellow: #FFF9E9;
     --light-blue: #2B3646;
+    --red: #FE6039;
 }
 
 body {
@@ -95,6 +96,19 @@ img {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+}
+.btn-subscribe, .btn-contact {
+    padding: 16px 32px;
+    border: 1px solid var(--primary-color) !important;
+    color: var(--primary-color) !important;
+    background: unset !important;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
 }
 
 /* Navigation Styles */
@@ -243,7 +257,7 @@ p {
 
 .card {
     border: unset !important;
-    gap: 40px;
+    gap: 20px;
     padding: 40px !important;
 }
 
@@ -329,7 +343,16 @@ p {
 /* Pricing Styles */
 .pricing-head {
     text-align: center;
-    padding: 80px 0 64px 0;
+    padding: 80px 200px;
+}
+
+.p-price, .p-head {
+    text-align: center;
+}
+.p-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .grey {
@@ -346,10 +369,28 @@ p {
     background: #FFFFFF;
     box-shadow: 0px 36.5016px 274.734px rgba(0, 0, 0, 0.0482987), 0px 17.7209px 243.4px rgba(0, 0, 0, 0.0389404), 0px 8.6871px 188.494px rgba(0, 0, 0, 0.0310596), 0px 3.43489px 106.018px rgba(0, 0, 0, 0.0217013);
     border-radius: 20px;
+    margin: 0 30px;
 }
 .pricing-card>.row>* {
     padding-left: 0 !important;
     padding-right: 0 !important;
+}
+.pricng-card-item ul li {
+    list-style: disc !important;
+}
+.pricng-card-item li {
+    margin-bottom: 20px;
+}
+.pricng-card-item ul li::marker {
+    color: var(--red);
+}
+
+.p-list {
+    padding: 0 60px;
+}
+
+.p-head-text {
+    padding: 0 60px;
 }
 
 .form-switch .form-check-input {
@@ -357,6 +398,10 @@ p {
 }
 .form-check-input {
     height: 1.5em !important;
+}
+.form-check-input:checked {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
 }
 
 /* To Top Button */
