@@ -352,5 +352,16 @@ p {
     padding-right: 0 !important;
 }
 
+/* To Top Button */
+#btn-back-to-top {
+    position: fixed;
+    background-color: var(--primary-color) !important;
+    border: none !important;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 10px;
+    display: none;
+}
+
 
 /* Responsivness */
