@@ -1,4 +1,4 @@
-# Moder-Website
+# Modern-Website
 
 Modern Website created with Codespaces & Bootstrap.
 
