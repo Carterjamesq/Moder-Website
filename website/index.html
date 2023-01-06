@@ -222,7 +222,28 @@
           </ul>
         </div>
         <div class="pricng-card-item p-button">
-          <button class="btn-main">Get a plan</button>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn-main" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Get a plan
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn-main">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-lg card">
@@ -263,8 +284,8 @@
 <div class="container footer py-5">
   <div class="row">
     <div class="col-lg">
-      <div class="footer-contetn">
-        <img src="" alt="">
+      <div class="footer-content">
+        <img src="./images/icon-message.svg" alt="">
         <div class="footer-r-col">
           <h5>Writte a message</h5>
           <a href="mailto:carterjames@ukr.net">support@mail.com</a>
@@ -272,8 +293,8 @@
       </div>
     </div>
     <div class="col-lg">
-      <div class="footer-contetn">
-        <img src="" alt="">
+      <div class="footer-content">
+        <img src="./images/icon-call.svg" alt="">
         <div class="footer-r-col">
           <h5>Get a phone call</h5>
           <a href="tel:+">+1 234 2344 22</a>
@@ -282,7 +303,7 @@
     </div>
     <div class="col-lg">
       <div class="footer-content">
-        <img src="" alt="">
+        <img src="./images/icon-schedule.svg" alt="">
         <div class="footer-r-col">
           <h5>Book a demo</h5>
           <!-- Calendly link widget begin -->
